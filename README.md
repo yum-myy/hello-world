@@ -78,6 +78,9 @@
             border:1px solid #000;
             border-collapse: collapse;
         }
+        caption{
+            font-weight:bold;
+      }
     </style>
 </head>
 <body>
