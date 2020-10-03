@@ -66,7 +66,68 @@
   }  
   
   
-  
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <style type="text/css">
+        table,tr,td{
+            border:1px solid #000;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <caption>各地区资产投资情况</caption>
+    <thead>
+       <tr>
+           <td rowspan="2">地区</td>
+           <td colspan="2">按总量分</td>
+           <td colspan="2">按比重分</td>
+       </tr>
+       <!-- 第二行还是表头，放在表格主题部分会出错，要注意！！！   -->
+       <tr>
+           <td>自年初累计（亿元）</td>
+           <td>比去年同期增长（%）</td>
+           <td>自年初累计（%）</td>
+           <td>去年同期（%）</td>
+       </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>全国</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr><td>东部地区</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td></tr>
+        <tr><td>北京市</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td></tr>
+        <tr><td>天津市</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td></tr>
+        <tr><td>河北省</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td></tr>
+    </tbody>
+</table>
+</body>
   
   
   
