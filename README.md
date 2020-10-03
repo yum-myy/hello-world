@@ -27,3 +27,48 @@
     }
   </style>
 </head>
+
+<!-- div+css头部/内容/底部 -->
+<div calss="header">1</div>
+<div calss="content">2</div>
+<div calss="footer">3</div>
+
+<style type="text/css">
+  /* 清除默认样式 */
+  .*{
+      padding:0px;
+      margin:0px;
+  }
+  /* 无序列表前面没有小圆点(有序换成ol即可) */
+  ul{
+     list-style:none;
+  }
+  table,tr,td,th{
+     /* 制作单线表格 */
+     border-collapse:collapse;
+  }
+  .header{
+          width:100%;
+          height:200px;
+          background-color:#eee;
+  }  
+  .content{
+          width:100%;
+          height:500px;
+          background-color:#eee;
+          margin-top:30px;
+  }  
+   .footer{
+          width:100%;
+          height:200px;
+          background-color:#eee;
+          margin-top:30px;
+  }  
+  
+  
+  
+  
+  
+  
+  
+  
