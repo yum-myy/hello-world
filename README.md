@@ -133,6 +133,32 @@
 </body>
   
   
-  
-  
+       
+       div p {
+            /*后代选择器 选中的是div后代中的P标签的内容*/
+            color:red;
+            font-size: 50px;
+        }
+        div h6 {
+            /*后代选择器 选中的是div后代中的P标签的后代h6中的内容*/
+            color:blue;
+        } 
+       /* 使用后代选择器时，先将祖先补全*/
+        .box div p {
+            font-size: 40px;
+            color: coral;
+        }
+        .box div h3 {
+            color: yellow;
+        }
+        /*  交集选择器  */
+        p.para {
+            color: yellow;
+            font-size: 30px;
+        }
+        h3.para.fs{
+            /* 有h3标签、.para类名、.fs类名的都会被选中来设置其中的属性;交集*/
+            color: cornflowerblue;
+        }
+        /*并集选择器*/  
   
